@@ -99,7 +99,78 @@ export default function Home() {
                   variant="contained"
                   sx={{ mt: "24px", width: "100%" }}
                 >
-                  Login
+                  Login and Register
+                </Button>
+              </a>
+            </Card>
+          </Grid>
+        </Grid>
+        <Box sx={{ mt: "96px" }}>
+          <Typography variant="h4" sx={{ mb: "24px" }}>
+            Camp Schedules
+          </Typography>
+        </Box>
+        <Grid container sx={{ mt: "24px" }}>
+          <Grid item xs={12} sm={6} sx={{ p: 2 }}>
+            <Card sx={{ p: "24px" }}>
+              <Typography variant="h3" sx={{ fontSize: "1.5rem" }}>
+                Summer Camps Schedule
+              </Typography>
+              <a
+                href="https://coerver-colorado.webflow.io/summer-camps"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" sx={{ mt: "24px", width: "100%" }}>
+                  View Schedule
+                </Button>
+              </a>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} sx={{ p: 2 }}>
+            <Card sx={{ p: "24px" }}>
+              <Typography variant="h3" sx={{ fontSize: "1.5rem" }}>
+                Summer Camps Info
+              </Typography>
+              <a
+                href="https://coerver-colorado.webflow.io/our-mission"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" sx={{ mt: "24px", width: "100%" }}>
+                  View Info
+                </Button>
+              </a>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} sx={{ p: 2 }}>
+            <Card sx={{ p: "24px" }}>
+              <Typography variant="h3" sx={{ fontSize: "1.5rem" }}>
+                Spring FOG Westminster
+              </Typography>
+              <a
+                href="https://coerver-colorado.webflow.io/spring-f-o-g-westminster"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" sx={{ mt: "24px", width: "100%" }}>
+                  View Schedule
+                </Button>
+              </a>
+            </Card>
+          </Grid>
+          <Grid item xs={12} sm={6} sx={{ p: 2 }}>
+            <Card sx={{ p: "24px" }}>
+              <Typography variant="h3" sx={{ fontSize: "1.5rem" }}>
+                Spring FOG Greenwood Village
+              </Typography>
+              <a
+                href="https://coerver-colorado.webflow.io/spring-f-o-g-greenwood-village"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outlined" sx={{ mt: "24px", width: "100%" }}>
+                  View Schedule
                 </Button>
               </a>
             </Card>
